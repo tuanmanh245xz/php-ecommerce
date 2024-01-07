@@ -1,0 +1,389 @@
+*{
+	margin:0px ;
+	padding: 0px;
+    text-decoration:none;
+}
+.clr{
+	clear:both;
+}
+
+body{
+	margin:0px auto;
+	width:1000px;
+	font-size:12px;
+	background:#FFF;
+
+}
+.top{
+	width:1000px;
+	height:38px;
+	background:#333;
+}
+.search{
+	width:370px;
+	height:32px;
+	float:right;
+	margin-right:30px;
+	padding-top:4px;
+
+}
+.search .search_text{
+	padding: 8px 0 0 15px;
+	float:left;
+	width:110px;
+	color:#999999;
+	color:#CCC;
+	
+	
+	
+}
+.search .search_text a{
+	color:#CCC;
+	text-decoration:none;
+	margin-left:25px;
+	
+}
+.search .search_input{
+	width:182px;
+	height:18px;
+	border: 1px ;
+	float:left;
+	margin-top:5px;
+}
+.search .search_btn{
+	float:left;
+	margin-top:4px;
+}
+.header{
+	margin:0px auto;
+	width:1000px;
+	height:190px;	
+}
+#logo{
+	width:320px;
+	height:190px;
+	float:left;	
+}
+.banner{
+	height:190px;
+	width:680px;
+	float:left;
+}
+#menu_tab{
+	width:1000px;
+	height:36px;
+	background-color:#CCC;
+	border:1px;
+	border-radius:8px;
+}
+
+ul.menu {	
+	width:1000px;
+	margin:0px auto;
+	list-style-type:none;
+}
+ul.menu li{
+	font-size:14px;
+	font-weight:bold;
+    line-height:40px;
+	
+}
+ul.menu li.divider{
+	width:1px;
+	height:40px;
+	float:left;
+	background-color:#EEE ;
+}
+ul.menu li a{
+	float:left;
+	padding:0 8px 0 22px;
+	margin:0 37px;
+	height:35px;
+	text-decoration:none;
+	color:#03F;
+}
+#trangchu{
+	background:url(../images/Home.ico) no-repeat left ;
+}
+#trangchu:hover{
+	background:url(../images/Home.ico) no-repeat left ;
+	color:#D41F55;
+}
+#baohanh{
+	background:url(../images/SanPham.png) no-repeat left;
+}
+#baohanh:hover{
+	background:url(../images/SanPham.png) no-repeat left;
+	color:#D41F55;
+}
+#lienhe{
+	background:url(../images/LienHe.ico) no-repeat left;
+}
+#lienhe:hover{
+	background:url(../images/LienHe.ico) no-repeat left;
+	color:#D41F55;
+}
+#gioithieu{
+	background:url(../images/gioithieu.png) no-repeat left;
+}
+#gioithieu:hover{
+	background:url(../images/gioithieu.png) no-repeat left;
+	color:#D41F55;
+}
+#dangnhap{
+	background:url(../images/DangNhap.ico) no-repeat left;
+}
+#dangnhap:hover{
+	background:url(../images/DangNhap.ico) no-repeat left;
+	color:#D41F55;
+}
+#dangky{
+	background:url(../images/DangKy.png) no-repeat left;
+}
+#dangky:hover{
+	background:url(../images/DangKy.png) no-repeat left;
+	color:#D41F55;	
+}
+.content{
+	margin:0px auto;
+	width:1000px;
+	height:850px;	
+}
+.left_content{
+	width:200px;
+	float:left;
+}
+.tittle_box{
+	width:200px;
+	height:30px;
+	background-color:#06C;
+	border:1px ;
+	border-radius:4px;
+	margin-top:5px;	
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+	color:#FFF;
+	line-height:30px;
+	
+}
+ul.content_box{
+	width:200px;
+	list-style:none;
+}
+ul.content_box li{	
+	list-style:none;
+	
+}
+ul.content_box li.Menu a{
+    width:166x;
+	height:25px;
+    display:block;
+	text-decoration:none;
+    background: #DDD;
+	line-height:25px;
+	background-position:5px 5px;
+	padding-left:30px;
+	font-size:14px;	
+}
+ul.content_box li.Menu a:hover{
+     width:166x;
+	height:25px;
+    display:block;
+	text-decoration:none;
+    background: #67F;
+	line-height:25px;
+	background-position:5px 5px;
+	padding-left:30px;
+	font-size:14px;	
+}
+
+ul.content_box li.Laptop a{
+	width:166x;
+	height:25px;
+	background:url(../images/laptop.png) no-repeat left #DDD;
+	display:block;
+	text-decoration:none;
+	line-height:25px;
+	background-position:5px 5px;
+	padding-left:30px;
+	font-size:14px;	
+}
+
+ul.content_box li.Tablet a{
+	width:166x;
+	height:25px;
+	background:url(../images/tablet.png) no-repeat left #EEE;
+	display:block;
+	text-decoration:none;
+	line-height:25px;
+	background-position:5px 5px;
+	padding-left:30px;
+	font-size:14px;
+
+}
+ul.content_box li.Smartphone a{
+	width:166x;
+	height:25px;
+	background:url(../images/smartphone.png) no-repeat left #DDD;
+	display:block;
+	text-decoration:none;
+	line-height:25px;
+	background-position:5px 5px;
+	padding-left:30px;
+	font-size:14px;
+
+}
+
+ul.content_box li.Laptop a:hover{
+	background:url(../images/Laptop.png) no-repeat left #69F;
+	background-position:5px 5px;
+	padding-left:30px;
+	color:#FFF;
+}
+
+ul.content_box li.Tablet a:hover{
+	background:url(../images/tablet.png) no-repeat left #69F;
+	background-position:5px 5px;
+	padding-left:30px;
+	color:#FFF;
+}
+ul.content_box li.Smartphone a:hover{
+	background:url(../images/Smartphone.png) no-repeat left #69F ;
+	background-position:5px 5px;
+	padding-left:30px;
+	color:#FFF;
+}
+
+.border_box{
+	width:200px;
+	height:auto;
+	text-align:center;
+	border:1px solid #69F ;
+	border-radius:3px;
+}
+.product_tittle{
+	padding-top:5px;
+	font-weight:bold;
+	font-size:14px;
+	
+}
+.product_tittle a{
+	text-decoration:none;
+	color:#C00;
+}
+.product_tittle a:hover{
+	color:#69F;
+}
+.product_price{
+	padding:5px;
+	font-size:13px;
+	font-weight:bold;
+}
+span.giacu{
+	text-decoration:line-through;
+	color:#333;
+}
+span.giamoi{
+	color:#900;
+	font-size:14px;	
+}
+.banner2{
+	width:200px;
+	text-align:center;
+	padding-top:5px;	
+}
+.banner3{
+	width:200px;
+	padding-top:0px;
+}
+.center_content{
+	width:600px;
+	float:left;
+	margin-top:3px;	
+}
+.center_tittle_bar{
+	width:570px;
+	
+	float:left;
+	background-color:#CCF ; 
+	border:1px ;
+	border-radius:6px;
+	font-weight:bold;
+	padding-left:10px;
+	margin-top:10px;
+	margin-left:10px;
+	line-height:24px;
+	color:#036;
+	font-size:15px;
+}
+.product_box{
+	width:151px;
+	float:left;
+	padding:10px;
+	border-radius:4px;
+	border:1px solid #CCC; ;
+	margin-left:20px;
+	margin-top:10px;
+	text-align:center;	
+}
+.right_content{
+	width:200px;
+	float:left;
+	padding: 5px 0 0 0 ;	
+	
+}
+.footer{
+	width:1000px;
+	
+	background-color:#F2F2F2;
+	margin:0px auto;
+	border:1px;
+	border-radius:6px;
+	margin-top: -80px;
+}
+.footer_content{
+	padding-top:5px;
+	text-align:center;
+	color:#2A3F55;
+	font-size:14px;
+}
+.php{
+    text-align: center;
+    color: blue;
+    font-size: 22px;
+    margin-top: 50px;
+}
+.neoslideshow { margin:0px auto; margin-top: 20px; position:relative; width:480px; height:220px;}
+
+.neoslideshow img {position:absolute;left:0; top:0;}
+p{
+    padding-top: 10px;
+    text-align: center;
+    color:darkcyan;
+    font-size: 18px;
+}
+.form_login{
+    
+}
+.logout
+{
+    float:right;margin-top:10px;margin-right:30px;
+    
+    font-weight: bold;
+}
+.logout a{
+    color: #EEE;
+}
+label.welcome{
+    float: left;
+    color: #CCC;
+    font-weight: bold; 
+    margin-left: 40px;
+    margin-top: 10px;
+    
+}
+
+
+
+
